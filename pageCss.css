@@ -1,0 +1,525 @@
+    article{
+    grid-area: ar;
+    } 
+    aside{
+     grid-area: as;
+     background-color:#f2e6d9;
+    } 
+    footer{
+    grid-area: f;
+    }
+    header{
+     grid-area: h;
+     }
+     /*body*/
+     .picHelp{
+      width: 50px;
+      height: 50px;
+      border-top-left-radius: 30%;
+      border-bottom-left-radius: 30%;
+      direction: rtl ;
+      position: sticky;
+      top: 150px;
+     }
+     body{
+      direction: rtl ;
+      font-size: 20px;
+      text-align: center;
+      font-family: sans-serif;
+      background-color: #f9f2ec;
+  }
+  #thisPage{
+    background-color: #b37700;
+   }
+   #logoImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 500%;
+    margin-right: 20px;
+  }
+  #headerLogo{
+    display: flex ;
+    justify-content: space-between ;
+    background-color:#996633 ;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 2;
+ }
+   a{
+  text-decoration: none;
+   }
+   #divForTitle{
+    margin-top: 150px;
+    
+   }
+     /* **********home********* */
+     
+    .picHotels{
+      border-top-left-radius: 8%;
+      border-top-right-radius: 8%;
+    }
+
+     #clock{
+      margin-right: 120px;
+      height: 100px;
+      width: 100px;
+     border: 2px solid black;
+      border-radius: 50%;
+      background-color: rgba(42, 165, 155, 0.796);
+      position: relative; 
+      z-index:0 ;
+     
+  }
+  #clock::before{
+      content: '';
+       width: 2px; /*העובי של הקו המייצר את המחוג*/
+       height: 45%; /*האורך של המחוג*/
+       left: 50%;/*מרכוז המחוג לאמצע השעון*/
+      bottom:50%; 
+      background:black;
+      position: absolute; 
+       z-index: 1;  
+      animation: rotate 1s infinite;
+       transform-origin: bottom;  
+       animation-timing-function: linear; 
+  }
+  #clock::after{
+      content: ' ';
+      width: 2px;
+      height: 35%;
+      left: 50%;
+      bottom:50%;
+      background:black;
+      position: absolute;
+       z-index: 1; 
+      animation: rotate 12s infinite;
+       transform-origin: bottom; 
+      animation-timing-function: linear;
+  }
+  @keyframes rotate{
+     to{
+      transform: rotate(360deg);
+      }
+  }
+    .pictureAsideHomePage{
+        height: 20vh;
+        width: 20vh;
+     }
+     
+       .details_hotel{
+  
+           border: 5px black  ridge;
+           border-radius: 10%;
+           text-align: center;
+  
+       }
+       .flex{
+           display: flex;
+           justify-content: space-evenly;
+           
+       }
+      
+      #hotels{
+        height: 100%;
+        width: 100%; 
+      }
+     
+      #menuDropDaun{
+       
+        text-decoration: none;
+        margin-bottom: 10px;
+        background-color:  #d2a679;
+        margin-top:150px ;
+      }
+      
+      #menuDropDaun a{
+        color:black;
+      }
+      #menuDropDaun a:hover{
+        text-shadow:#c68c53 1px 1px ;
+        font-size: 20px;
+        color: white;
+        text-decoration: underline;
+      }
+     
+     #detailsTrips{
+        display: none;
+        background: #c68c53;
+     }
+     #menuTrip:hover #detailsTrips{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        color: black;
+      
+       
+     }
+     #hotels img{
+        margin-top: 5px;
+     }
+        /* ********atraction******* */
+     
+     #pictureLunaPark img{
+        
+        border: 5px dotted black;
+        height: 400px;
+        width: 80% ;
+     }
+              .pictureAtraction{
+             height: 200px;
+             width: 300px;
+        } 
+        #park1{animation: park1Move 15s infinite;}
+        #park2{animation: park2Move 15s infinite;}
+        #park3{animation: park3Move 15s infinite;}
+        #park4{animation: park4Move 15s infinite;}
+        #park5{animation: park5Move 15s infinite;}
+        #park6{animation: park6Move 15s infinite;}
+        #park7{animation: park7Move 15s infinite;}
+        #park8{animation: park8Move 15s infinite;}
+        #park9{animation: park9Move 15s infinite;}
+        #park10{animation: park10Move 15s infinite;}
+        #park11{ animation: park11Move 15s infinite;}
+        #park12{ animation: park12Move 15s infinite;}
+
+        @keyframes park1Move{
+          0%{ width: 30vh;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park2Move{
+          0%{ width: 0px;}
+          8%{ width: 30vh;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park3Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 30vh;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park4Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 30vh;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park5Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 30vh;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park6Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 30vh;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park7Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 30vh;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park8Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 30vh;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park9Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 30vh;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park10Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 30vh;}
+          80%{width: 0px;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park11Move{
+          0%{ width: 0px;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 30vh;} 
+          100%{width: 0px;} 
+        }
+        @keyframes park12Move{
+          100%{ width: 30vh;}
+          8%{ width: 0px;}
+          16%{width: 0px;}
+          24%{width: 0px;}
+          32%{ width: 0px;}
+          40%{ width: 0px;}
+          48%{width: 0px;}
+          56%{ width: 0px;}
+          64%{width: 0px;}
+          72%{ width: 0px;}
+          80%{width: 0px;} 
+          0%{width: 0px;} 
+        } 
+      /* flay */
+      @keyframes move{
+        0%{
+            transform: rotate(0deg);
+        }
+       25%{
+            transform: rotate(10deg);
+        }
+       50%{
+            transform: rotate(0deg);
+        }
+        75%{
+         transform: rotate(-10deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+        
+     }
+   
+    .picAirPlan:hover{
+      
+        animation: move 2s infinite;
+          animation-timing-function: linear;  
+    } 
+      #detailesFlay{
+           
+          border: 1px solid black;
+            border-radius: 7px;
+           width: 50%;
+           margin-left: 25%;
+           margin-right: 25%;
+        } 
+        .detailesUser{
+            display: inline-block;
+           
+        }
+        #sky{
+         
+            background-image: url(Ph03927_.jpg);
+            background-size: 100% 600px ;
+            background-repeat:no-repeat;
+        }
+        table{
+          border-collapse:collapse ;
+          border: 1.5px solid;
+         margin-top: 3%;
+        }
+        th{
+         border: 2px dashed;
+         background-color:rgb(58, 143, 241);
+        }
+        td{
+          border-left: 1.5px;
+         border-right: 1.5px;
+         border: 1.5px solid;
+        }
+       table tr:hover {
+          background-color:rgb(100, 160, 228) ;
+        }
+        
+         #articalFlay{
+                display:flex; 
+             justify-content: center;   
+            
+         }   
+     
+     /* ********payment******* */
+       #form{
+           display: inline-block;  
+        }
+        #bodyPayment{
+          background-image: linear-gradient(#d49857,#f2e6d9 ,#d49857);
+        }
+        fieldset{
+          border-radius: 4%;
+          background:#f2e6d9;
+        }
+       
+      input[type="text"]{
+        border-radius: 10%;
+      }
+        input[type="checkbox"]{
+            height: 30px;
+            width: 20px;
+        }
+        ul{
+          list-style-type: none;
+          text-align: right;
+        }
+        /*trips*/
+      #a{
+    grid-area: a;
+       /* width: 100%;
+    height: 100%;   */
+    position: relative;  
+} 
+#b{
+    grid-area: b;
+       /* width: 100%;
+    height: 100%;    */
+    position: relative; 
+} 
+#c{
+    grid-area: c;
+        /* width: 100%;
+    height: 100%;    */
+    position: relative; 
+}
+#d{
+    grid-area: d;
+       /* width: 100%;
+    height: 100%;   */
+    position: relative;  
+}
+#e{
+    grid-area: e;
+      /* width: 100%;
+    height: 100%;  */
+     position: relative;  
+}
+#f{
+    grid-area: f;
+       /* width: 100%;
+    height: 100%;  */
+     position: relative;  
+} 
+#g{
+    grid-area: g;
+      /* width: 100%;
+    height: 100%;  */
+     position: relative;   
+}
+#h{
+    grid-area: h;
+      /* width: 100%;
+    height: 100%;  */
+     position: relative; 
+}
+#i{
+    grid-area: i;
+     /* width: 100%;
+    height: 100%;  */
+     position: relative;  
+}
+   .galeryImg{
+    width: 100%;
+    height: 100%; 
+}    
+#galery div:hover .galeryImg{
+    opacity: 0.5;
+     transition: opacity 3s; 
+}
+#galery div:hover .nemeCountryOver{
+    display: block;
+}
+.nemeCountryOver{
+    position: absolute;
+    width:70vw;
+    height:10vw;
+    display: none;
+      transition: display 1.5s;  
+}
+
+ol{
+  text-align: right;
+  }
+
+

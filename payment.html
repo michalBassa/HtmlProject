@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsiv.css">
+     <link rel="stylesheet" href="pageCss.css"> 
+    <title>💲</title>
+    <style>
+     
+      
+    </style>
+</head>
+<body id="bodyPayment">
+    <div id="main2">
+    <header>
+        <div id="headerLogo" >
+            <div id="logo">
+                <img id="logoImg" src="shutterstock_211377973.jpg"alt="לוגו נופשים">
+                <div>נופש מעל הרקיע</div>
+            </div>
+            <div> נופש עם כוכבים | 0504154191</div>       
+         </div>
+          <nuv>
+         <div id="nuv" id="divForTitle">
+          <a href="#" ><img id="imgbuttom"src="img12.jpg"  alt="חץ"></a>
+          <div id="menuDropDaun">
+             <a class="menuBeforThisPage" href="home.html">דף הבית</a>
+             <div id="menuTrip">
+                <a href="#">טיולים מאורגנים</a>
+                <div id="detailsTrips">
+                        <a href="tripsWorld.html">טיולים בעולם</a>
+                        <a href="tripsIsrael.html">טיולים באתרים ניבחרים</a>
+                        <a href="atractionPark.html">לונה פארק</a>
+                </div>
+             </div>
+             <a href="flay.html">טיסות לחו"ל</a>
+             <a href="payment.html"id="thisPage">סיכום הזמנה ותשלום</a>
+           </div>
+            </nuv>
+       </div>
+           <h1>דף הזמנה סיכום ותשלום</h1>
+    </header>
+    <article>
+      <div id="form">
+     <form action="ok.html">
+        <fieldset>
+          <legend>פרטים אישיים</legend> 
+          <p>
+         <label for="firstNane">שם פרטי</label>
+         <br>
+          <input id="firstNane" type="text" placeholder="הכנס שם פרטי" required>
+        </p>
+        <p>
+          <label for="lastName">שם משפחה</label>
+          <br>
+         <input id="lastName" type="text" placeholder="הכנס שם משפחה" required>  
+        </p>
+        <p>
+            <label for="tez">תעודת-זהות</label>
+            <br>
+            <input id="tez" type="number" placeholder="הכנס תעודת-זהות" minlength="9" maxlength="9">
+        </p>
+         <p>
+         <label for="telNumber">מספר טלפון</label>  
+         <br>
+         <input type="tel" id="telNumber" placeholder="הכנס מספר טלפון"required minlength="10"maxlength="10">
+        </p>
+        <p>
+         <label for="email">מייל</label>
+         <br>
+         <input type="email" placeholder="הכנס כתובת מייל">
+        </p>
+        <p>
+          <label for="age">גיל</label>
+          <br>
+          <input type="number"id="age" placeholder="הכנס גיל"required min="1">
+         </p>
+         <p>
+         <label for="adress"> כתובת מגורים</label>
+         <br>
+         <input type="text" id="adress" placeholder="הכנס כתובת מגורים">
+        </p>
+        <p>
+          <label for="date">תאריך לידה</label>
+          <br>
+          <input type="date">
+         </p>
+        <p>
+          <label for="gender">מין</label>
+          <br>
+          <label  for="female">זכר</label>
+         <input type="radio" name="gender" id="female">
+         <label for="male">נקבה</label>
+         <input type="radio" name="gender" id="male">
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>בחירת נופש</legend>
+        <p>
+          <label for="hotelCheck">בית-מלון</label>
+          <br>
+             <select id="hotelCheck" name="בחר בית-מלון">
+            <option value="select" disabled selected>בחר בית-מלון</option>
+            <option value="שלווה בעולם">שלווה בעולם</option>
+            <option value="שלום הארץ">שלום הארץ</option>
+            <option value="המלך דוד">המלך דוד</option>
+            <option value="המלך שלמה">המלך שלמה</option>
+            <option value="פסגת החלומות">פסגת החלומות</option>
+           <option value="ים המלח">ים המלח</option>
+           <option value="ירושלים">ירושלים</option>
+          <option value="ציפורי">ציפורי</option>
+          <option value="יופי הטבע">יופי הטבע</option>
+          <option value="כינורות">כינורות</option>
+          <option value="נוף הפסגה">נוף הפסגה</option>
+           <option value="גולדן">גולדן</option> 
+             </p>
+             <p>
+              <input type="text">
+             </p>
+             <p>
+              <label for="checkRoom">רמת חדר</label>
+                  <br>
+                  <label  for="room1">סוויטה</label>
+                 <input type="radio" name="checkRoom" id="room1"> 
+                 <label for="room2">חדר סטנדרטי</label>
+                 <input type="radio" name="checkRoom" id="room2">
+             </p>
+             <p>
+              <label for="hercev">הרכב</label>
+                  <br>
+                  <label  for="alaun">יחידי</label>
+                 <input type="radio" name="hercev" id="alaun"> 
+                 <label for="pair">זוגי</label>
+                 <input type="radio" name="hercev" id="pair">
+             </p>
+             <p>
+              <label for="countChildren">הכנס כמות ילדים</label>
+              <br>
+              <input type="number"id="countChildren" placeholder="הכנס כמות ילדים" min="0">
+             </p>
+             </p>
+             <p>
+             <label for="dateHotel">תאריך חופשה</label>
+             <br>
+             <input id="dateHotel" type="date">
+            </p>
+                <p>
+                  <label for="checkTrip">טיולים מאורגנים</label>
+                  <br>
+                  <label  for="trip">טיול בארץ</label>
+                 <input type="checkbox" name="checkTrip" id="trip"> 
+                 <label for="park">לונה פארק</label>
+                 <input type="checkbox" name="checkTrip" id="park">
+              </p>
+      </fieldset>
+      <fieldset>
+       <legend>תשלום</legend>
+       <p>
+        <label for="topay">אופן תשלום</label>
+        <br>
+        <label for="ckash">מזומן</label>
+        <input type="radio" name="topay" id="ckash">
+        <label for="card">כרטיס-אשרי</label>
+        <input type="radio" name="topay" id="card">
+        <label for="jek">צייק</label>
+        <input type="radio" name="topay" id="jek">
+        <label for="kupon">קופון</label>
+        <input type="radio" name="topay" id="kupon">
+       </p>
+       <p>
+        <label for="sismaKupon">סיסמאת קופון</label>
+        <br>
+        <input type="password" id="sismaKupon"placeholder="הזן סיסמאת קופון">
+       </p>
+       <p>
+        <label for="numCard">מספר כרטיס כרטיס-אשרי</label>
+        <br>
+        <input type="number"id="numCard"minlength="10"maxlength="10">
+       </p>
+       <p>
+        <label for="countPay">כמות תשלומים</label>
+        <br>
+        <input id="countPay"type="number"min="1"max="4">
+       </p>
+        
+      </fieldset>
+    
+      <label for="parmition">אני מאשר שכל הפרטים שהזנתי נכונים:</label>
+      <input type="checkbox" id="parmition"> 
+      <input type="reset">
+      <input type="submit">
+    </div>
+    </article>
+<aside>
+<ul>
+  <h2>חשוב לדעת</h2>
+  <li>❕החברה עושה את המיטב והמירב למען לוקחותיה ולכן עם יש בעיה נשמח שתיעדו אותנו.</li>
+  <li>❕על ביטול עיסקה יגבה 30% מסך התשלום.</li>
+  <li>❕החברה אינה אחראית לכל נזק כספי או גופני שיגרם במהלך החופשה.</li>
+  <li>❕יתכנו שינויים בתיכנוני הטיולים ולכן חשוב לעקוב.</li>
+</ul>
+
+</aside>
+<footer>
+  <p>
+      © כל הזכיות שמורות לחברת נופש עם כוכבים- נופש מעל הרקיע
+    <br>
+     ליצירת קשר ופרטים נוספים:0504154191 
+     <br>
+     נשמח לעזור בכל בעיה
+     <br>
+     צוות נופש עם כוכבים
+     <br>
+     מיכל בסה
+  </p>
+</footer>
+</div>
+</body>
+</html>

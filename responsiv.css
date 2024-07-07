@@ -1,0 +1,212 @@
+
+
+@media(min-width:500px){
+    #main1{
+        display: grid;
+         grid-template-columns: (6,auto);
+         grid-template-rows: (8,auto);
+         height:100vh;
+         grid-template-areas: 
+        "h h h h h h"
+       "as ar ar ar ar ar"
+       "as ar ar ar ar ar"
+       "as ar ar ar ar ar"
+       "as ar ar ar ar ar"
+       "as ar ar ar ar ar"
+       "as ar ar ar ar ar"
+        "f f f f f f"
+    }
+    #main2{
+        display: grid;
+        grid-template-columns: (5,auto);
+        grid-template-rows: (7,auto);
+        height:100vh;
+        grid-template-areas: 
+       "h h h h h "
+      " ar ar ar ar ar"
+      " ar ar ar ar ar"
+      " ar ar ar ar ar"
+      " ar ar ar ar ar"
+      "as as as as as"
+       "f f f f f "
+    }
+    /*דף הבית*/
+     #hotels{
+     display: grid;        
+     grid-template-columns: repeat(3,auto);
+     grid-template-rows: repeat(4,auto); 
+     gap: 25px; 
+    
+    }
+    .picHotels{
+        height: 40vh;
+        width: 40vh;
+    }
+     #menuDropDaun{
+    display: flex;
+    justify-content: space-evenly;}
+    #imgbuttom{
+        display: none;
+    } 
+    #menuTrip:hover #detailsTrips{
+      
+          position: absolute;  
+       
+     }
+     #menuDropDaun{
+       
+     
+          position: relative;  
+      }
+    /*atraction*/
+    .atraction{
+        font-size: 30px;
+      }
+    /*flay*/
+    table{
+        font-size: 35px; 
+        text-align: center;
+    }
+  
+   
+    .picAirPlan{
+        height: 130px;
+        width: 200px;
+       
+    }
+    
+
+    /*trip*/
+    #galery{
+        margin-top: 2vw;
+        margin-bottom: 15vw;
+        margin-right:15%; 
+       display: grid;
+       grid-template-rows:30% 30% 30% 30%;
+       grid-template-columns:  20% 20%  20% 20%;
+       grid-template-areas:"a d d e"
+                           "a h f e"
+                           "b b f i"
+                           "c g g i";
+                           grid-gap: 0.5em;
+       height: 80vh;
+       width: 95%;
+   }
+   .nemeCountryOver{
+    font-size: 4.5vw;
+   }
+   #texth,#textc{
+    transform: translate(35%,0);
+    top:25%;
+} 
+ #texta,#texte,#textf,#texti{
+  transform: translate(35%,0);  
+     top:40%;
+}
+#textd,#textb,#textg{
+  transform: translate(25%,0);  
+     top:25%;
+}
+
+}   
+
+@media (max-width:500px){
+    
+    #main1{
+        display: grid;
+        grid-template-columns: (3,auto);
+        grid-template-rows: (7,auto);
+        height: 100vh;
+        grid-template-areas:
+        "h h h"
+        "ar ar ar"
+        "ar ar ar"
+        "ar ar ar"
+        "ar ar ar"
+        "as as as "
+        "f f f"
+
+    }
+    #main2{
+        display: grid;
+        grid-template-columns: (3,auto);
+        grid-template-rows: (7,auto);
+        height: 100vh;
+        grid-template-areas:
+        "h h h"
+        "ar ar ar"
+        "ar ar ar"
+        "ar ar ar"
+        "ar ar ar"
+        "as as as "
+        "f f f"
+    }
+    /*home page*/
+   
+    .picHotels{
+        height: 25vh;
+        width: 22vh;
+    }
+    #hotels{
+        display: grid;        
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(6,auto);
+      gap: 15px; 
+      
+
+     }
+     
+    #imgbuttom{
+        width: 10px;
+        height: 10px;
+    }
+    #menuDropDaun{
+        display: none ;
+    }
+    #nuv{
+        margin-top: 150px;
+    }
+    #nuv:hover  #menuDropDaun{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        /* position: relative; */
+    }
+    #picCompuny{
+        display: none;
+    }
+    /*flay*/
+ 
+    table{
+        font-size: 15px
+    }
+    .colNotDisplay{
+        display: none !important; 
+    }
+    
+   /*atraction*/
+    .atraction{
+        font-size: 15px;
+      }
+    /*trip*/
+    #galery{
+       
+       display: block;
+   }
+   .nemeCountryOver{
+    font-size: 40px;;
+   }
+   #texta,#textb,#textc,#textd,#texte,#textf,#textg,#texth,#texti{
+    transform: translate(-15%,0);  
+       top:30%;
+  }
+
+}
+
+
+
+
+
+  
+   
+    

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✈</title>
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="stylesheet" href="pageCss.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+  <div id="main2">
+    <header id="sky">
+        <div id="headerLogo" >
+            <div id="logo">
+                <img id="logoImg" src="shutterstock_211377973.jpg"alt="לוגו נופשים">
+                <div>נופש מעל הרקיע</div>
+            </div>
+            <div> נופש עם כוכבים | 0504154191</div>
+        </div>
+        <div id="divForTitle">
+          <nuv>
+          <div id="nuv">
+            <a href="#" ><img id="imgbuttom"src="img12.jpg"  alt="חץ"></a>
+            <div id="menuDropDaun">
+               <a class="menuBeforThisPage" href="home.html" >דף הבית</a>
+               <div id="menuTrip">
+                  <a href="#">טיולים מאורגנים</a>
+                  <div id="detailsTrips">
+                    
+                          <a href="tripsWorld.html">טיולים בעולם</a>
+                          <a href="tripsIsrael.html">טיולים באתרים ניבחרים</a>
+                          <a href="atractionPark.html">לונה פארק</a>
+                  </div>
+               </div>
+               <a href="flay.html"id="thisPage">טיסות לחו"ל</a>
+               <a href="payment.html">סיכום הזמנה ותשלום</a>
+             </div>
+              </nuv>
+         </div>
+            <h1>טיסות לחו"ל</h1>
+            <div id="detailesFlay">
+                <form action="payment.html">
+                  <div class="detailesUser"> 
+                   <label for="userName">שם:</label>
+                  <br>
+                   <input id="userName" type="text" placeholder="הכנס שם">
+                 </div> 
+                  <div class="detailesUser">
+                   <label for="countTravels">כמות נוסעים:</label>
+                  <br>
+                   <input id="countTravels" type="number"min="1">
+                   </div> 
+                 <input type="text" list="country"placeholder="בחר ארץ">
+                 <datalist id="country">
+                  <option value="select" disabled selected>מדינה:</option>
+                  <option value="ישראל">ישראל</option>
+                  <option value="ארצות הברית">ארצות הברית</option>
+                  <option value="צרפת">צרפת</option>
+                  <option value="שוויץ">שוויץ</option>
+                  <option value="אנגליה">אנגליה</option>
+                  <option value="מרוקו">מרוקו</option>
+                  <option value="סין">סין</option>
+                 </datalist>
+                 <div class="detailesUser">
+                    <label id="time">זמן ושעה:</label>
+                    <br>
+                    <input type="datetime-local">
+                 </div>
+                 <br>
+                 <div class="detailesUser">
+                   <input type="submit">
+                 </div>
+                 <div class="detailesUser">
+                    <input type="reset">
+                 </div>
+               
+                </form>
+            </div>
+        </div>
+       </header>
+       <article id="articalFlay">
+        
+        <table>
+          <tr>
+            <th class="colNotDisplay" scope="col" >סמל החברה</th>
+            <th class="colNotDisplay" scope="col">חברת התעופה</th>
+            <th scope="col">ארץ מוצא</th>
+            <th  scope="col">יעד טיסה</th>
+            <th class="colNotDisplay" scope="col">הפסקת ביניים</th>
+            <th  scope="col">שעת המראה</th>
+            <th   scope="col">שעת נחיתה</th>
+            <th scope="col">מחיר</th>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img  class="picAirPlan" src="airplan/Aircraft 078.jpg"></td>
+            <td class="colNotDisplay">אל-על</td>
+            <td>תל-אביב</td>
+            <td>ספרד</td>
+            <td class="colNotDisplay">2 שעות</td>
+            <td>16:00</td>
+            <td>03:00</td>
+            <td>450$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/Aircraft 115.jpg"></td>
+            <td class="colNotDisplay">ארקיע</td>
+            <td>ישראל</td>
+            <td>ארה"ב</td>
+            <td class="colNotDisplay">8 שעות</td>
+            <td>07:00</td>
+            <td>03:00</td>
+            <td>850$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/Aircraft 129.jpg"></td>
+            <td class="colNotDisplay">אמריקן</td>
+            <td>תל-אביב</td>
+            <td>רוסיה</td>
+            <td class="colNotDisplay">2 שעות</td>
+            <td>15:00</td>
+            <td>22:00</td>
+            <td>380$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/Aircraft 299.jpg"></td>
+            <td class="colNotDisplay">רויאל</td>
+            <td>ארה"ב</td>
+            <td>אוסרליה</td>
+            <td class="colNotDisplay">4 שעות</td>
+            <td>08:00</td>
+            <td>06:00</td>
+            <td>1000$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/Aircraft 315.jpg"></td>
+            <td class="colNotDisplay">אייר סוויס</td>
+            <td>ברלין</td>
+            <td>נוברגיה</td>
+            <td class="colNotDisplay">0 שעות</td>
+            <td>10:00</td>
+            <td>17:00</td>
+            <td>250$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/Aircraft 598.jpg"></td>
+            <td class="colNotDisplay">ישראייר</td>
+            <td>תל-אביב</td>
+            <td>פראג</td>
+            <td class="colNotDisplay">1 שעות</td>
+            <td>09:00</td>
+            <td>19:00</td>
+            <td>550$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src="airplan/SSGP2173.JPG"></td>
+            <td class="colNotDisplay">רויאל</td>
+            <td>תל-אביב</td>
+            <td>פריז</td>
+            <td class="colNotDisplay">3 שעות</td>
+            <td>06:00</td>
+            <td>14:00</td>
+            <td>600$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src=""></td>
+            <td class="colNotDisplay">ארקיע</td>
+            <td>תל-אביב</td>
+            <td>אמסטרדם</td>
+            <td class="colNotDisplay">9 שעות</td>
+            <td>12:00</td>
+            <td>22:00</td>
+            <td>300$</td>
+          </tr>
+          <tr>
+            <td class="colNotDisplay"><img class="picAirPlan"src=""></td>
+            <td class="colNotDisplay">אמריקן</td>
+            <td>תל-אביב</td>
+            <td>ניו יורק</td>
+            <td class="colNotDisplay">6 שעות</td>
+            <td>22:30</td>
+            <td>09:45</td>
+            <td>240$</td>
+          </tr>
+        </table>
+       </article>
+       <aside>
+      <div>
+        <h3>טיסות לחו"ל המדריך המלא</h3>
+        <p>
+ לפני שטסים לחו"ל צריכים ליהיות מוכנים לטיסה ולבבר את כל פרטי הטיסה ליפני.
+        </p>
+        <p>
+          בחירת התאריך הוא השלב הראשון בכל תכנון חופשה בחו"ל חשוב לדעת שיש תאריכים המשפיעים על מחירי הטיסה.
+           כרטיס טיסה לחול בעונת התיירות הבוערת יעלה יותר מאשר טיסה שלא בעונה "החמה". העונות הבוערות הן עונות החגים או חודשי יולי אוגוסט.
+            כדאי גם לבדוק תאריכים בארץ היעד, גם שם יש עונות תיירות מוגברות שבהן מחירי השירותים התיירותיים מתייקרים.
+        </p>
+        <p>
+אם אין לכם סבלנות או מספיק ידע להזמין לבד בית מלון וכרטיס טיסה, דילים או חבילות נופש הם הפתרון האידיאלי בשבילכם.
+ בדרך כלל המחיר של הדיל כולל טיסה, מלון הסעה משדה התעופה למלון ומהמלון בחזרה לשדה התעופה.
+  רוב המלונות הכלולים בדיל הם בדרגת תיירות של שלושה כוכבים, הם נוחים, נקיים ומוצעים במחירים סבירים.
+   כדאי לדעת כי מחירי הדיל צונחים סמוך למועד הטיסה.
+    אם יש לכם עצבים וסבלנות, אתם יכולים לקחת את הסיכון ולהזמין את הדיל ברגע האחרון כיומיים לפני הטיסה.
+        </p>
+        <p>
+כדי שלא תגיעו לשדה התעופה ותגלו שהמטוס ממריא משדה אחר,
+ קראו היטב גם את האותיות הקטנות של הכרטיס.
+  יש כרטיסי טיסה לחול שבהם הנחיתה תהיה בשדה תעופה אחד 
+  וההמראה חזרה הביתה תהיה משדה תעופה אחר
+        </p>
+        <p>
+ לפני שאתם מזמינים כרטיס טיסה לחו"ל בדקו אם הדרכון שלכם בתוקף. 
+ הגעתם לשדה התעופה וגיליתם שהדרכון לא בתוקף, 
+ אתם יכולים להאריך את תוקפו בשדה התעופה, אך המחיר שתשלמו יהיה יקר מאוד
+        </p>
+        <p>
+לא מומלץ לטוס לחו"ל ללא ביטוח רפואי.חלק מחברות האשראי מעניקות ביטוח רפואי לחו"ל בחינם,
+ אך הוא לא אוטומאטי וצריך להפעיל אותו.
+        </p>
+        
+      </div>
+       </aside>
+       <footer>
+        <p>
+          © כל הזכיות שמורות לחברת נופש עם כוכבים- נופש מעל הרקיע
+          <br>
+           ליצירת קשר ופרטים נוספים:0504154191 
+           <br>
+           נשמח לעזור בכל בעיה
+           <br>
+           צוות נופש עם כוכבים
+           <br>
+           מיכל בסה
+        </p>
+       </footer>
+  </div>  
+  
+</body>
+</html>
